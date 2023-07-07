@@ -9,7 +9,11 @@ module.exports = {
     fontFamily: {
       'great-vibes': ['Great Vibes', 'cursive'],
       'raleway': ['Raleway', 'cursive'],
-      'barlow': ['Barlow', 'sans-serif']
+      'barlow': ['Barlow', 'sans-serif'],
+      'nunito': ['Nunito', 'sans-serif'],
+      'nunito-300': ['Nunito', 'sans-serif', '300'],
+      'nunito-600': ['Nunito', 'sans-serif', '600'],
+      'nunito-900': ['Nunito', 'sans-serif', '900'],
     },
     extend: {
       spacing: {
@@ -19,7 +23,7 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
         primary: "#0b79f2",

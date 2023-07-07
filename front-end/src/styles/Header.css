@@ -1,0 +1,6 @@
+.hamburguer-transition {
+  transform: translateX(0);
+  transition-property: transform;
+  transition-duration: 5s;
+  transition-timing-function: ease-in-out;
+}
