@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import homeImage from "../assets/home-image.png";
+import homeImage from "../assets/home-image-1.png";
 import goDown from '../assets/go-down.png';
 import Link from 'next/link';
 
 const Home = () => {
   return (
-    <div
+    <section
       id="home"
       className="h-full md:h-screen mx-auto flex  items-center justify-center px-8 md:flex-row bg-background"
     >
@@ -21,7 +21,7 @@ const Home = () => {
             A <span className='font-bold'>Howhow</span> é uma empresa que conecta marcas a influenciadores, encerre longas esperas por campanhas ou e-mails. Nosso sistema centralizado acelera o marketing de influência, potencializando resultados.
           </h3>
 
-          <section className='flex flex-col md:flex-row items-center'>
+          <div className='flex flex-col md:flex-row items-center'>
             <Link href='/register'>        
               <div>
                 <button
@@ -41,9 +41,9 @@ const Home = () => {
                 </button>
               </div>
             </Link>
-          </section>
+          </div>
 
-          <Link href='/#about'> 
+          <Link href='#about'  style={{scrollBehavior:'smooth'}}> 
             <div className='hidden md:block mt-44 cursor-pointer'>
                 <Image
                   src={goDown}
@@ -65,7 +65,7 @@ const Home = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

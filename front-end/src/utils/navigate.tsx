@@ -2,22 +2,22 @@ const headerLinks = [
   {
     id: 1,
     name: "Início",
-    link: "/#hero",
+    link: "#hero",
   },
   {
     id: 2,
     name: "Sobre Nós",
-    link: "/#about",
+    link: "#about",
   },
   {
     id: 3,
     name: "Sou Influenciador",
-    link: "/#howtoinflu",
+    link: "#howtoinflu",
   },
   {
     id: 4,
     name: "Contato",
-    link: "/#contact",
+    link: "#contact",
   },
 ];
 
