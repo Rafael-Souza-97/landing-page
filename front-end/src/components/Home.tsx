@@ -1,8 +1,10 @@
 import React from 'react';
-import Image from 'next/image';
-import homeImage from "../assets/home-image-1.png";
-import goDown from '../assets/go-down.png';
 import Link from 'next/link';
+import Image from 'next/image';
+import homeImage from "@/assets/influencer.png";
+import goDown from '@/assets/go-down.png';
+import { BsChevronDoubleDown } from 'react-icons/bs';
+import '@/styles/Home.css';
 
 const Home = () => {
   return (
@@ -18,14 +20,14 @@ const Home = () => {
             em negócios.
           </h1>
           <h3 className="text-xl sm:text-3xl mb-5">
-            A <span className='font-bold'>Howhow</span> é uma empresa que conecta marcas a influenciadores, encerre longas esperas por campanhas ou e-mails. Nosso sistema centralizado acelera o marketing de influência, potencializando resultados.
+            A <span className='font-bold'>InfluenceHub</span> é uma empresa que conecta marcas a influenciadores, encerre longas esperas por campanhas ou e-mails. Nosso sistema centralizado acelera o marketing de influência, potencializando resultados.
           </h3>
 
           <div className='flex flex-col md:flex-row items-center'>
             <Link href='/register'>        
               <div>
                 <button
-                  className="text-sm md:text-lg font-semibold text-white mt-1 px-10 py-5 hover:shadow-lg bg-primary hover:bg-blue-700 rounded-3xl"
+                  className="text-md md:text-lg font-semibold text-white mt-1 px-10 py-5 hover:shadow-lg bg-primary hover:bg-purple-600 rounded-3xl"
                 >
                   Sou empresa
                 </button>
@@ -35,7 +37,7 @@ const Home = () => {
             <Link href='/login'>        
               <div>
                 <button
-                  className="text-sm md:text-lg font-semibold text-primary mt-3 md:mt-1 px-10 py-5 md:ml-4 border border-primary hover:text-primary hover:shadow-md hover:bg-gray-100 rounded-3xl"
+                  className="text-md md:text-lg font-semibold text-purple-700 mt-3 md:mt-1 px-10 py-5 md:ml-4 border border-primary hover:text-primary hover:shadow-md hover:bg-white rounded-3xl"
                 >
                   Sou influenciador
                 </button>
@@ -43,16 +45,10 @@ const Home = () => {
             </Link>
           </div>
 
-          <Link href='#about'  style={{scrollBehavior:'smooth'}}> 
-            <div className='hidden md:block mt-44 cursor-pointer'>
-                <Image
-                  src={goDown}
-                  alt={"logo"}
-                  width={150}
-                  className='mt-1'
-                />
-
-            </div>
+          <Link href="#about" className='flex justify-center mt-44 mx-auto'>
+            <button className="hidden md:flex group items-center rounded-md bg-transparent mb-5">
+              <BsChevronDoubleDown size={30} className="ml-2 text-primary down-arrow" />
+            </button>
           </Link>
         </div>
 
@@ -60,7 +56,7 @@ const Home = () => {
           <Image
             src={homeImage}
             alt={"logo"}
-            width={3000}
+            width={2000}
             className='mt-1'
           />
         </div>

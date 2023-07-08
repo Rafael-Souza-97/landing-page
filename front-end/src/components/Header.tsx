@@ -1,11 +1,11 @@
 'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import headerLinks from '../utils/navigate';
-import Logo from '../assets/howhow-logo.svg';
+import headerLinks from '@/utils/navigate';
+import Logo from '@/assets/influence-hub.png';
 import { FiMenu, FiX } from 'react-icons/fi';
 import Image from 'next/image';
-import '../styles/Header.css';
+import '@/styles/Header.css';
 
 function Header() {
   const [nav, setNav] = useState(false);
@@ -23,13 +23,8 @@ function Header() {
   return (
     <header className="flex p-5 justify-between bg-background">
       <Link href='/'>
-        <div className="flex cursor-pointer opacity-90 hover:opacity-100 ml-3">
-          <Image
-            src={Logo}
-            alt={"logo"}
-            width={180}
-            className='mt-1'
-          />
+        <div className="flex cursor-pointer opacity-90 hover:opacity-100 ml-3 mt-3">
+          <h1 className="font-Lora text-2xl md:text-3xl text-purple-600">INFLUNCE HUB</h1>
         </div>
       </Link>
 
@@ -76,7 +71,7 @@ function Header() {
           >
             <Link href='/login'>        
               <button
-                className="font-mono text-lg text-primary mt-1 mx-2 px-4 py-4 md:ml-4 border border-primary hover:text-primary hover:shadow-md hover:bg-white rounded-3xl"
+                className="font-mono text-lg text-purple-700 mt-1 mx-2 px-4 py-4 md:ml-4 border border-primary hover:text-primary hover:shadow-md hover:bg-white rounded-3xl"
               >
                 Fazer Login
               </button>
@@ -84,7 +79,7 @@ function Header() {
 
             <Link href='/register'>        
               <button
-                className="text-lg text-white mt-1 mx-2 px-4 py-4 font-medium md:ml-4 border border-gray-300 hover:shadow-md bg-primary hover:bg-blue-700 rounded-3xl"
+                className="text-lg text-white mt-1 mx-2 px-4 py-4 font-medium md:ml-4 border border-gray-300 hover:shadow-md bg-primary hover:bg-purple-600 rounded-3xl"
               >
                 Registrar-se
               </button>
@@ -93,12 +88,11 @@ function Header() {
         </ul>
       )}
 
-
       <section className='flex'>
         <Link href='/login'>        
           <div className="hidden xl:block">
             <button
-              className="text-sm font-semibold text-primary mt-1 px-4 py-4 md:ml-4 border border-primary hover:text-primary hover:shadow-md hover:bg-gray-100 rounded-3xl"
+              className="text-md font-semibold text-purple-700 mt-1 px-4 py-4 md:ml-4 border border-primary hover:text-primary hover:shadow-md hover:bg-white rounded-3xl"
             >
               Fazer Login
             </button>
@@ -108,7 +102,7 @@ function Header() {
         <Link href='/register'>        
           <div className="hidden xl:block">
             <button
-              className="text-sm font-semibold text-white mt-1 px-4 py-4 md:ml-4 hover:shadow-lg bg-primary hover:bg-blue-700 rounded-3xl"
+              className="text-md font-semibold text-white mt-1 px-4 py-4 md:ml-4 hover:shadow-lg bg-primary hover:bg-purple-600 rounded-3xl"
             >
               Registrar-se
             </button>

@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import '@/styles/Slider.css';
 import Netflix from '@/assets/brand-logos/netflix.svg';
 import HBO from '@/assets/brand-logos/hbo.svg';
 import meliuz from '@/assets/brand-logos/meliuz.svg';
@@ -17,6 +16,7 @@ import buzzfeed from '@/assets/brand-logos/buzzfeed.svg';
 import forbes from '@/assets/brand-logos/forbes.svg';
 import macys from '@/assets/brand-logos/macys.svg';
 import menshealth from '@/assets/brand-logos/menshealth.svg';
+import '@/styles/Slider.css';
 
 const LogoSlider = () => {
   return (
@@ -118,7 +118,7 @@ const LogoSlider = () => {
           width={180}
         />
 
-<Image
+        <Image
           src={Netflix}
           alt={"netflix"}
           width={100}
@@ -215,8 +215,7 @@ const LogoSlider = () => {
         />
       </div>
     </div>
-
   )
 }
 
-export default LogoSlider
+export default LogoSlider;
