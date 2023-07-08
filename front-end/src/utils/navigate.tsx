@@ -2,7 +2,7 @@ const headerLinks = [
   {
     id: 1,
     name: "Início",
-    link: "/#home",
+    link: "/#hero",
   },
   {
     id: 2,

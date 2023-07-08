@@ -21,7 +21,7 @@ function Header() {
   }, []);
 
   return (
-    <header className="flex p-5 justify-between shadow-sm bg-background">
+    <header className="flex p-5 justify-between bg-background">
       <Link href='/'>
         <div className="flex cursor-pointer opacity-90 hover:opacity-100 ml-3">
           <Image
@@ -98,7 +98,7 @@ function Header() {
         <Link href='/login'>        
           <div className="hidden xl:block">
             <button
-              className="text-sm font-semibold text-primary mt-1 px-4 py-4 md:ml-4 border border-primary hover:text-primary hover:shadow-md rounded-3xl"
+              className="text-sm font-semibold text-primary mt-1 px-4 py-4 md:ml-4 border border-primary hover:text-primary hover:shadow-md hover:bg-gray-100 rounded-3xl"
             >
               Fazer Login
             </button>
