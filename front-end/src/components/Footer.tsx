@@ -47,17 +47,21 @@ const Footer = () => {
         <div className="hidden xl:flex flex-col items-center justify-start px-5">
           <h3 className="text-xl md:text-3xl text-black mb-4 text-center">Políticas</h3>
           <ul className="hidden xl:flex flex-col">
-            <li
-              className="ml-1 px-10 mt-2 cursor-pointer text-lg text-black hover:text-purple-700 hover:scale-105 text-center"
-            >
-              Política de privacidade
-            </li>
-
-            <li
-              className="ml-1 px-10 mt-2 cursor-pointer text-lg text-black hover:text-purple-700 hover:scale-105 text-center"
-            >
-              Termos de uso
-            </li>
+            <Link href='/privacy-policy'>      
+              <li
+                className="ml-1 px-10 mt-2 cursor-pointer text-lg text-black hover:text-purple-700 hover:scale-105 text-center"
+              >
+                Política de privacidade
+              </li>
+            </Link>
+            
+            <Link href='/privacy-policy'>
+              <li
+                className="ml-1 px-10 mt-2 cursor-pointer text-lg text-black hover:text-purple-700 hover:scale-105 text-center"
+              >
+                Termos de uso
+              </li>
+            </Link>
           </ul>
         </div>
 

@@ -8,7 +8,7 @@ import '@/styles/Home.css';
 const Services = () => {
   return (
     <section
-      id="influencer"
+      id="services"
       className='md:pt-0 px-4 md:px-0 bg-gradient-to-b from-background to-white'
     >
       <ServiceContent

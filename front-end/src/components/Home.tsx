@@ -8,7 +8,7 @@ import '@/styles/Home.css';
 const Home = () => {
   return (
     <section
-      id="home"
+      id="main"
       className="h-full md:h-screen mx-auto flex items-center justify-center px-8 md:flex-row bg-background"
     >
       <div className="max-w-screen-2xl mx-auto flex flex-col-reverse items-center justify-center h-full px-8 md:flex-row">
@@ -23,7 +23,7 @@ const Home = () => {
           </h3>
 
           <div className='flex flex-col md:flex-row items-center justify-center mt-10 '>
-            <Link href='/register'>        
+            <Link href='#services'>        
               <div>
                 <button
                   className="text-md md:text-lg font-semibold text-white px-10 py-5 hover:shadow-lg bg-primary hover:bg-purple-600 rounded-3xl"
@@ -33,7 +33,7 @@ const Home = () => {
               </div>
             </Link>
 
-            <Link href='/login'>        
+            <Link href='#services'>        
               <div>
                 <button
                   className="text-md md:text-lg font-semibold text-purple-700 mt-3 md:mt-1 px-10 py-5 md:ml-4 border border-primary hover:text-purple-800 hover:shadow-md hover:bg-white rounded-3xl"

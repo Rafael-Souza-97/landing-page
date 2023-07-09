@@ -2,7 +2,7 @@ const headerLinks = [
   {
     id: 1,
     name: "Início",
-    link: "#hero",
+    link: "#main",
   },
   {
     id: 2,
@@ -11,8 +11,8 @@ const headerLinks = [
   },
   {
     id: 3,
-    name: "Sou Influenciador",
-    link: "#influencer",
+    name: "Serviços",
+    link: "#services",
   },
   {
     id: 4,
