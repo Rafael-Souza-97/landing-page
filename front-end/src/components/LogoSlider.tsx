@@ -25,193 +25,193 @@ const LogoSlider = () => {
         <Image
           src={Netflix}
           alt={"netflix"}
-          width={100}
+          width={150}
         />
 
         <Image
           src={HBO}
           alt={"HBO"}
-          width={100}
+          width={150}
         />
 
         <Image
           src={meliuz}
           alt={"meliuz"}
-          width={100}
+          width={150}
         />
 
         <Image
           src={mondial}
           alt={"mondial"}
-          width={100}
+          width={150}
         />
 
         <Image
           src={ontex}
           alt={"ontex"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={picpay}
           alt={"picpay"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={playstation}
           alt={"playstation"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={freefire}
           alt={"freefire"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={tiktok}
           alt={"tiktok"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={threeM}
           alt={"threeM"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={barstoolStore}
           alt={"barstoolStore"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={budweiser}
           alt={"budweiser"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={buzzfeed}
           alt={"buzzfeed"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={forbes}
           alt={"forbes"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={macys}
           alt={"macys"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={menshealth}
           alt={"menshealth"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={Netflix}
           alt={"netflix"}
-          width={100}
+          width={150}
         />
 
         <Image
           src={HBO}
           alt={"HBO"}
-          width={100}
+          width={150}
         />
 
         <Image
           src={meliuz}
           alt={"meliuz"}
-          width={100}
+          width={150}
         />
 
         <Image
           src={mondial}
           alt={"mondial"}
-          width={100}
+          width={150}
         />
 
         <Image
           src={ontex}
           alt={"ontex"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={picpay}
           alt={"picpay"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={playstation}
           alt={"playstation"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={freefire}
           alt={"freefire"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={tiktok}
           alt={"tiktok"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={threeM}
           alt={"threeM"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={barstoolStore}
           alt={"barstoolStore"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={budweiser}
           alt={"budweiser"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={buzzfeed}
           alt={"buzzfeed"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={forbes}
           alt={"forbes"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={macys}
           alt={"macys"}
-          width={180}
+          width={150}
         />
 
         <Image
           src={menshealth}
           alt={"menshealth"}
-          width={180}
+          width={150}
         />
       </div>
     </div>

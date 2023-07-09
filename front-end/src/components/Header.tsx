@@ -2,9 +2,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import headerLinks from '@/utils/navigate';
-import Logo from '@/assets/influence-hub.png';
 import { FiMenu, FiX } from 'react-icons/fi';
-import Image from 'next/image';
 import '@/styles/Header.css';
 
 function Header() {

@@ -12,7 +12,7 @@ const headerLinks = [
   {
     id: 3,
     name: "Sou Influenciador",
-    link: "#howtoinflu",
+    link: "#influencer",
   },
   {
     id: 4,

@@ -2,14 +2,18 @@ import HomeComponent from '@/components/Home';
 import About from '@/components/About';
 import Clients from '@/components/Clients';
 import Services from '@/components/Services';
+import Contact from '@/components/Contact';
 
-export default function Home() {
+const Home = () => {
   return (
-    <main className=''>
+    <main>
       <HomeComponent />
       <Services />
       <About />
       <Clients />
+      <Contact />
     </main>
   )
 }
+
+export default Home;
