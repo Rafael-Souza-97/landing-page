@@ -5,20 +5,19 @@ import { AiOutlineRight } from 'react-icons/ai';
 
 const About = () => {
   return (
-    <section
-      id="about"
-      className="h-full md:h-screen mx-auto flex-col items-center justify-center align-top bg-gradient-to-b from-background to-white"
-    >
+    <section id="about" className="h-full md:h-screen mx-auto flex-col items-center justify-center">
       <div className='max-w-screen-2xl mx-auto flex flex-col items-center justify-center h-full px-8'>
-        <div className="max-w-screen-xl mx-auto flex flex-wrap flex-col md:flex-row pt-10 md:pt-0 justify-center">
+        <div className="max-w-screen-xl mx-auto flex flex-wrap flex-col md:flex-row pt-5 md:pt-0 justify-center">
           <div className='text-center p-2 md:mx-6 mb-4 md:mb-0'>
             <h1 className='font-semibold text-2xl md:text-6xl'>+6.916</h1>
             <h3 className='text-2xl mt-2'>Campanhas realizadas</h3>
           </div>
+
           <div className='text-center p-2 md:mx-6 mb-4 md:mb-0'>
             <h1 className='font-semibold text-2xl md:text-6xl'>+12.400</h1>
             <h3 className='text-2xl mt-2'>Campanhas realizadas</h3>
           </div>
+
           <div className='text-center p-2 md:mx-6 mb-4 md:mb-0'>
             <h1 className='font-semibold text-2xl md:text-6xl'>+62</h1>
             <h3 className='text-2xl mt-2'>Empresas cadastradas</h3>
@@ -29,6 +28,7 @@ const About = () => {
           <h1 className="font-semibold text-3xl sm:text-5xl mb-5">
             Um pouco da nossa história
           </h1>
+
           <h3 className="text-lg sm:text-2xl mb-5">
             A InfluenceHub reinventa a interação entre marcas e influenciadores. Nossa plataforma centraliza e acelera todas as fases das campanhas de marketing de influência, tornando a colaboração eficiente e eficaz. Com a InfluenceHub, cada conexão conta.
           </h3>

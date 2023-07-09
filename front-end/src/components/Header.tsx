@@ -33,7 +33,7 @@ function Header() {
           {headerLinks.map(({ id, link, name }) => (
             <li
               key={ id }
-              className="ml-1 px-10 mt-2 cursor-pointer text-lg text-black hover:text-primary hover:scale-105 text-center"
+              className="ml-1 px-10 mt-2 cursor-pointer text-lg text-black hover:text-purple-700 hover:scale-105 text-center"
             >
               <Link href={ link }>
                 { name }
@@ -51,11 +51,11 @@ function Header() {
       </div>
     
       {nav && (
-        <ul className="flex flex-col z-20 justify-center items-center absolute top-0 right-0 w-full md:w-2/4 lg:w-1/3 xl:w-1/4 h-screen bg-secondary hamburguer-transition">
+        <ul className="flex flex-col z-20 fixed top-0 right-0 h-screen justify-center items-center w-full md:w-2/4 lg:w-1/3 xl:w-1/4 bg-secondary hamburguer-transition overflow-hidden">
           {headerLinks.map(({ id, link, name }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer py-6 text-4xl text-gray-600 hover:text-primary mt-2"
+              className="px-4 cursor-pointer py-6 text-4xl text-gray-600 hover:text-purple-700 mt-2"
             >
               <Link
                 onClick={() => setNav(!nav)}
@@ -67,7 +67,7 @@ function Header() {
           ))}
 
           <li
-            className="px-4 cursor-pointer py-6 text-4xl text-gray-600 hover:text-primary mt-44"
+            className="px-4 cursor-pointer py-6 text-4xl text-gray-600 hover:text-purple-700 mt-44"
           >
             <Link href='/login'>        
               <button

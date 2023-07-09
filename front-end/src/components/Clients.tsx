@@ -8,10 +8,14 @@ const Clients = () => {
   return (
     <div
       id="clients"
-      className='pt-10 md:pt-0 px-4 md:px-0'
+      className='pt-20 md:pt-0 px-4 md:px-0'
     > 
       <h1 className="font-semibold text-3xl sm:text-5xl mb-5 text-center">
         Depoimentos
+      </h1>
+
+      <h1 className="text-xl sm:text-2xl mb-5 text-center">
+        O que nossos clientes estão dizendo:
       </h1>
       <div className='flex max-w-screen-xl justify-start mx-auto'>
         <Testimonial

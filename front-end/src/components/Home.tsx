@@ -1,8 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import homeImage from "@/assets/influencer.png";
-import goDown from '@/assets/go-down.png';
+import homeImage from "@/assets/homePage/influencer.png";
 import { BsChevronDoubleDown } from 'react-icons/bs';
 import '@/styles/Home.css';
 
@@ -10,10 +9,10 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="h-full md:h-screen mx-auto flex  items-center justify-center px-8 md:flex-row bg-background"
+      className="h-full md:h-screen mx-auto flex items-center justify-center px-8 md:flex-row bg-background"
     >
       <div className="max-w-screen-2xl mx-auto flex flex-col-reverse items-center justify-center h-full px-8 md:flex-row">
-        <div className="flex flex-col justify-center sm:mt-20 md:mt-20 lg:mt-0">
+        <div className="flex flex-col justify-center mt-8 md:mt-40">
           <h1 className="font-semibold text-4xl sm:text-6xl mb-5">
             Transformando<br />
             <span className='font-bold text-primary'>conteúdos</span>{' '}
@@ -45,19 +44,19 @@ const Home = () => {
             </Link>
           </div>
 
-          <Link href="#about" className='flex justify-center mt-44 mx-auto'>
-            <button className="hidden md:flex group items-center rounded-md bg-transparent mb-5">
-              <BsChevronDoubleDown size={30} className="ml-2 text-primary down-arrow" />
+          <Link href="#about" className='flex justify-center mt-36 mx-auto'>
+            <button className="hidden md:flex group items-center rounded-md bg-transparent">
+              <BsChevronDoubleDown size={35} className="ml-2 text-primary down-arrow" />
             </button>
           </Link>
         </div>
 
-        <div className="flex cursor-pointer ml-3 mb-10 sm:mb-0 md:mb-60">
+        <div className="flex cursor-pointer ml-3">
           <Image
             src={homeImage}
             alt={"logo"}
-            width={2000}
-            className='mt-1'
+            width={3000}
+            className='mt-3 md:mt-0'
           />
         </div>
       </div>
