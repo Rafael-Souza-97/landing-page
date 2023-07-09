@@ -86,7 +86,7 @@ const Footer = () => {
         </p> 
 
         <p className="px-10 font-medium text-gray-500 tracking-widest text-md mt-4 xl:mt-0">
-          Desenvolvido por <a href="https://github.com/Rafael-Souza-97" target="_blank" rel="noreferrer"><span className="cursor-pointer font-medium text-gray-500 hover:text-black tech">Rafael Souza</span></a> utilizando <a href="https://nextjs.org/" target="_blank" rel="noreferrer" ><span className="cursor-pointer font-medium text-gray-500 hover:text-black">Next</span></a> e <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><span className="cursor-pointer font-medium text-gray-500 hover:text-cyan-400 font">Tailwind</span></a>.
+          Desenvolvido por <a href="https://github.com/Rafael-Souza-97" target="_blank" rel="noreferrer"><span className="cursor-pointer font-medium text-gray-500 hover:text-black tech">Rafael Souza</span></a> utilizando <a href="https://nextjs.org/" target="_blank" rel="noreferrer" ><span className="cursor-pointer font-medium text-gray-500 hover:text-black">Next.js</span></a> e <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><span className="cursor-pointer font-medium text-gray-500 hover:text-cyan-400 font">Tailwind</span></a>.
         </p> 
       </div>
     </footer>

@@ -69,7 +69,7 @@ function Header() {
           >
             <Link href='/login'>        
               <button
-                className="font-mono text-lg text-purple-700 mt-1 mx-2 px-4 py-4 md:ml-4 border border-primary hover:text-primary hover:shadow-md hover:bg-white rounded-3xl"
+                className="font-mono text-lg text-purple-700 mt-1 mx-2 px-4 py-4 md:ml-4 border border-primary hover:text-purple-800 hover:shadow-md hover:bg-white rounded-3xl"
               >
                 Fazer Login
               </button>
@@ -90,7 +90,7 @@ function Header() {
         <Link href='/login'>        
           <div className="hidden xl:block">
             <button
-              className="text-md font-semibold text-purple-700 mt-1 px-4 py-4 md:ml-4 border border-primary hover:text-primary hover:shadow-md hover:bg-white rounded-3xl"
+              className="text-md font-semibold text-purple-700 mt-1 px-4 py-4 md:ml-4 border border-primary hover:text-purple-800 hover:shadow-md hover:bg-white rounded-3xl"
             >
               Fazer Login
             </button>

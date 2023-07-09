@@ -36,7 +36,7 @@ const Home = () => {
             <Link href='/login'>        
               <div>
                 <button
-                  className="text-md md:text-lg font-semibold text-purple-700 mt-3 md:mt-1 px-10 py-5 md:ml-4 border border-primary hover:text-primary hover:shadow-md hover:bg-white rounded-3xl"
+                  className="text-md md:text-lg font-semibold text-purple-700 mt-3 md:mt-1 px-10 py-5 md:ml-4 border border-primary hover:text-purple-800 hover:shadow-md hover:bg-white rounded-3xl"
                 >
                   Sou influenciador
                 </button>
