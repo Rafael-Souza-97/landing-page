@@ -1,10 +1,10 @@
 'use client';
 import { useState } from 'react';
-// import { useRouter } from 'next/navigation';
+import userValidation from '@/validations/userValidations';
+import requestEmail from '@/services/apiRequest';
+import IUser from '@/interfaces/IUser';
 import { ThemeProvider } from '@mui/material/styles';
 import { Button, TextField } from '@mui/material';
-import userValidation from '@/validations/userValidations';
-import IUser from '@/interfaces/IUser';
 import inputTheme from '@/themes/input';
 
 export default function ContactForm() {
@@ -17,7 +17,7 @@ export default function ContactForm() {
   const [errorMessage, setErrorMessage] = useState<string>('');
   const [successMessage, setSuccessMessage] = useState<boolean>(false);
 
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     const error = userValidation(userContact);
@@ -26,21 +26,26 @@ export default function ContactForm() {
       return;
     }
 
-    console.log('User-->', userContact)
-    setErrorMessage("");
+    try {
+      await requestEmail(userContact);
+      console.log('Email enviado com sucesso');
+      setSuccessMessage(true);
+    } catch (error) {
+      console.log('Erro ao enviar email:', error);
+      setErrorMessage('Ocorreu um erro ao enviar o email. Por favor, tente novamente mais tarde.');
+    }
+
     setUserContact({
-      'name': '',
-      'company': '',
-      'email': '',
-      'cellPhone': '',
+      name: '',
+      company: '',
+      email: '',
+      cellPhone: '',
     });
-    setSuccessMessage(true);
 
     setTimeout(() => {
       setSuccessMessage(false);
     }, 10000);
-  }
-
+  };
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
     setUserContact((prevState) => ({ ...prevState, [name]: value }));
