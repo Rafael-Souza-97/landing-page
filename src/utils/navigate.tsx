@@ -6,13 +6,13 @@ const headerLinks = [
   },
   {
     id: 2,
-    name: "Sobre Nós",
-    link: "#about",
+    name: "Serviços",
+    link: "#services",
   },
   {
     id: 3,
-    name: "Serviços",
-    link: "#services",
+    name: "Sobre Nós",
+    link: "#about",
   },
   {
     id: 4,
