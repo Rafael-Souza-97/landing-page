@@ -7,7 +7,9 @@ const InConstruction = () => {
       <div className="w-full max-w-screen-2xl mx-auto mb-10">
         <div className="flex flex-col items-center justify-center text-center">
           <h1 className="mb-10 text-4xl font-semibold text-gray-800">Ops.. Erro 404</h1>
-          <h1 className="mb-10 text-3xl font-semibold text-gray-800">Ainda não estamos prontos, mas estamos quase lá! 😉</h1>
+          <h1 className="mb-10 text-3xl font-semibold text-gray-800">
+            Ainda não estamos prontos, mas estamos quase lá! 😉
+          </h1>
           <p className="text-xl mb-12 text-gray-500">
             Nossa plataforma está sendo desenvolvida e nesse momento ela não está aberta para cadastros, somente uso interno, em breve todos poderão utilizar e fazer parte dessa evolução.
           </p>

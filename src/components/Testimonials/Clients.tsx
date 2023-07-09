@@ -23,7 +23,7 @@ const Clients = () => {
           src={personOne}
           job={'CEO at BigTech'}
           person={"Jeff Zuckerberg"}
-          />
+        />
       </div>
 
       <div className='flex max-w-screen-xl justify-end mx-auto'>
@@ -32,7 +32,7 @@ const Clients = () => {
           src={personTwo}
           job={'Influenciadora Digital'}
           person={"Camila Gavassi"}
-          />
+        />
       </div>
 
       <div className='flex max-w-screen-xl justify-start mx-auto'>
@@ -41,7 +41,7 @@ const Clients = () => {
           src={personThree}
           job={'CEO da ABC Corporation'}
           person={"Elon Cook"}
-          />
+        />
       </div>
     </div>
   );

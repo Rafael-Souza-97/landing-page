@@ -8,7 +8,7 @@ const ServiceContent = ({ title, text, src, imgWidth, imgSide }: IServiceProps) 
   return (
     <section
       id="influencer"
-      className='md:pt-0 px-4 md:px-0 bg-gradient-to-b from-background to-white'
+      className='md:pt-0 px-4 md:px-0'
     >
       {imgSide === 'left' ? (
         <div className="max-w-screen-xl mx-auto flex flex-col-reverse items-center justify-center h-full px-8 md:flex-row md:mb-20">
@@ -39,7 +39,7 @@ const ServiceContent = ({ title, text, src, imgWidth, imgSide }: IServiceProps) 
             </h1>
 
             <h3 className="text-xl sm:text-2xl mb-5 ml-10">
-            {parse(text)}
+              {parse(text)}
             </h3>
           </div>
 
