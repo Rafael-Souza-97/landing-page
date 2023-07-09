@@ -33,7 +33,7 @@ const About = () => {
             A InfluenceHub reinventa a interação entre marcas e influenciadores. Nossa plataforma centraliza e acelera todas as fases das campanhas de marketing de influência, tornando a colaboração eficiente e eficaz. Com a InfluenceHub, cada conexão conta.
           </h3>
 
-          <Link href='/login'>        
+          <Link href='#contact'>        
             <div>
               <button
                 className="flex text-xl text-white mt-7 mx-2 px-10 py-5 font-semibold md:ml-4 border border-gray-300 hover:shadow-md bg-primary hover:bg-purple-600 rounded-3xl"

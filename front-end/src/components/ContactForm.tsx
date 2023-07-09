@@ -53,7 +53,7 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="flex flex-col justify-center py-0 sm:px-6 lg:px-8 pb-24">
+    <div className="flex flex-col justify-center py-0 sm:px-6 lg:px-8 pb-10 md:pb-24">
       <div className="w-full mx-auto px-2">
         <div className="py-8 px-4 shadow rounded-lg sm:rounded-lg sm:px-10">
           <div className="sm:mx-auto sm:w-full sm:max-w-md">
@@ -150,8 +150,8 @@ export default function ContactForm() {
                 type="email"
                 id="email"
                 name="email"
-                label="Digite o e-mail do cliente"
-                placeholder="E-mail do cliente"
+                label="Insira o seu melhor e-mail"
+                placeholder="endereço@domínio.com"
                 value={userContact.email}
                 onChange={handleChange}
                 variant="outlined"
@@ -179,10 +179,10 @@ export default function ContactForm() {
             <div className="mt-2 mb-2">
               <TextField
                 type="tel"
-                placeholder="Telefone"
+                placeholder="Telefone com DDD(apenas números)"
                 name="cellPhone"
                 id="cellPhone"
-                label="Digite o número de telefone"
+                label="Insira o número de telefone"
                 variant="outlined"
                 inputProps={{
                   pattern: '[0-9]*',
