@@ -1,3 +1,5 @@
+![influence_hub](https://github.com/Rafael-Souza-97/landing-page/assets/99055008/686d201b-5da4-4f08-8d04-0b0a4dd8846d)
+
 # Influence HUB
 
 A InfluenceHub é uma empresa revolucionária no campo do marketing de influência. Nossa plataforma inovadora oferece uma solução abrangente para marcas e influenciadores encontrarem as parcerias ideais, impulsionando o sucesso de ambos os lados. Acreditamos no poder da colaboração e na importância de estabelecer conexões significativas. Por meio de nossa plataforma, proporcionamos um ambiente seguro e intuitivo, permitindo que marcas e influenciadores se conectem, negociem contratos e alcancem resultados excepcionais. Estamos comprometidos em simplificar e otimizar o marketing de influência, capacitando nossos usuários a alcançarem seu máximo potencial nesse cenário dinâmico e em constante evolução.
@@ -283,5 +285,7 @@ Apesar dessa limitação temporária, o front-end implantado no Vercel oferece u
 <br>
 
 ## Preview
+
+https://github.com/Rafael-Souza-97/landing-page/assets/99055008/9e71a1f9-f9d7-4eb7-87e6-7fbf8bd63618
 
 <hr>
