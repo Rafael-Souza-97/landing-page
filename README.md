@@ -126,6 +126,43 @@ Além disso, pequenos ajustes foram feitos utilizando CSS puro para complementar
 
 ## Instalação
 
+<br>
+
+<details>
+ <summary><strong> ⚠️ Configurações mínimas para execução do projeto</strong></summary><br />
+
+   Na sua máquina você deve ter:
+
+    - Sistema Operacional Distribuição Unix (Preferencialmente)
+    - Node versão 16
+    - MySQL
+    - MySQL Workbench ((Preferencialmente))
+   
+   ➡️ O `node` deve ter versão igual ou superior à `16.14.0 LTS`:
+     - Para instalar o nvm, [acesse esse link](https://github.com/nvm-sh/nvm#installing-and-updating);
+
+     - Rode os comandos abaixo para instalar a versão correta de `node` e usá-la:
+
+       - `nvm install 16.14 --lts`
+       - `nvm use 16.14`
+       - `nvm alias default 16.14`
+   
+   <br>
+   
+   - #### Observação:
+   
+   O Sequelize não possui um método nativo para criar automaticamente o banco de dados. Ele é responsável apenas pela criação das tabelas. Para criar o banco de dados automaticamente, você pode utilizar o `sequelize-cli` ou criar manualmente utilizando uma ferramenta de administração do MySQL, como o `MySQL Workbench`.
+   
+   - Utilizando o `sequelize-cli`, execute o comando `npx sequelize-cli db:create` para criar o banco de dados especificado na configuração. Certifique-se de ter o `sequelize-cli` instalado globalmente ou como uma dependência local.
+   
+   - Se preferir utilizar o `MySQL Workbench` ou outra ferramenta similar, você pode criar o banco de dados manualmente antes de iniciar o aplicativo.
+   
+   Após criar o banco de dados, o Sequelize será capaz de criar automaticamente as tabelas especificadas no código, utilizando o método `Contact.sync()` conforme já implementado.
+
+</details>
+
+<br>
+ 
 #### Front-End
 
 <br>
@@ -197,6 +234,8 @@ Abra [http://localhost:3000](http://localhost:3000/) no seu navegador para visua
 `npm run dev`
 ```
 
+O servidor rodará na porta 3001. [http://localhost:3001](http://localhost:3001/].
+
 <hr>
 </details>
 
@@ -244,7 +283,5 @@ Apesar dessa limitação temporária, o front-end implantado no Vercel oferece u
 <br>
 
 ## Preview
-
-https://user-images.githubusercontent.com/99055008/233128997-e9bef20a-b771-4110-9b7c-3087b8b26955.mp4
 
 <hr>
