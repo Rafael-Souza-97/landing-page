@@ -1,5 +1,7 @@
+import HttpCode from '../constants/statusCode';
 import Contact from '../models/Contact.model';
 import sendEmail from '../utils/sendEmail';
+import { serverErrorMessage , emailSendErrorMessage } from '../constants/messages';
 
 const contactService = async (name: string, company: string, email: string, cellPhone: string) => {
   try {
@@ -14,7 +16,7 @@ const contactService = async (name: string, company: string, email: string, cell
 
     const emailSent = sendEmail(email, name);
 
-    if (!emailSent) return { type: 400, message: "Falha ao enviar o e-mail!" };
+    if (!emailSent) return { type: HttpCode.BAD_REQUEST, message: emailSendErrorMessage };
 
     const successMessage: string = `Os dados do usuário foram armazenados corretamente e o e-mail foi enviado!:
     Nome: ${name},
@@ -22,10 +24,10 @@ const contactService = async (name: string, company: string, email: string, cell
     Email: ${email},
     Telefone: ${cellPhone}`;
 
-    return { type: 200, message: successMessage };
+    return { type: HttpCode.OK, message: successMessage };
   } catch (error) {
-    console.error('Erro ao armazenar os dados:', error);
-    return { type: 500, message: 'Ocorreu um erro ao armazenar os dados'};
+    console.error(`${serverErrorMessage}:`, error);
+    return { type: HttpCode.INTERNAL_SERVER_ERROR, message: serverErrorMessage};
   }
 };
 
