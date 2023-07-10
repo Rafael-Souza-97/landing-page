@@ -19,3 +19,7 @@
     transform: translate3d(0, 5px, 0);
   }
 }
+
+.negative-margin {
+  margin-top: -150px;
+}

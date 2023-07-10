@@ -8,7 +8,7 @@ export const api = axios.create({
 export const requestEmail = async (body: IUser) => {
   try {
     const { data } = await api.post('http://localhost:3001/contact', body);
-    console.log('retorno da api', data);
+
     return data;
   } catch (error: any) {
     if (error.response) {

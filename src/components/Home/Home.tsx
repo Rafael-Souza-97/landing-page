@@ -11,8 +11,8 @@ const Home = () => {
       id="main"
       className="h-full md:h-screen mx-auto flex items-center justify-center px-8 md:flex-row bg-background"
     >
-      <div className="max-w-screen-2xl mx-auto flex flex-col-reverse items-center justify-center h-full px-8 md:flex-row">
-        <div className="flex flex-col justify-center mt-8 md:mt-24">
+      <div className="max-w-screen-2xl mx-auto flex flex-col-reverse items-center lg:items-start lg:mt-36 justify-center h-full px-8 md:flex-row">
+        <div className="flex flex-col justify-center mt-8 lg:mt-36">
           <h1 className="font-semibold text-4xl sm:text-6xl mb-5">
             Transformando<br />
             <span className='font-bold text-primary'>conteúdos</span>{' '}
@@ -22,7 +22,7 @@ const Home = () => {
             A <span className='font-bold'>InfluenceHub</span> é uma empresa que conecta marcas a influenciadores, encerre longas esperas por campanhas ou e-mails. Nosso sistema centralizado acelera o marketing de influência, potencializando resultados.
           </h3>
 
-          <div className='flex flex-col md:flex-row items-center justify-center mt-10 '>
+          <div className='flex flex-col md:flex-row items-center justify-center mt-14'>
             <Link href='#services'>        
               <div>
                 <button
