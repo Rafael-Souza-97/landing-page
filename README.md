@@ -2,7 +2,7 @@
 
 <h1 align="center">INFLUENCE HUB</h1>
 
-A InfluenceHub é uma empresa revolucionária no campo do marketing de influência. Nossa plataforma inovadora oferece uma solução abrangente para marcas e influenciadores encontrarem as parcerias ideais, impulsionando o sucesso de ambos os lados. Acreditamos no poder da colaboração e na importância de estabelecer conexões significativas. Por meio de nossa plataforma, proporcionamos um ambiente seguro e intuitivo, permitindo que marcas e influenciadores se conectem, negociem contratos e alcancem resultados excepcionais. Estamos comprometidos em simplificar e otimizar o marketing de influência, capacitando nossos usuários a alcançarem seu máximo potencial nesse cenário dinâmico e em constante evolução.
+A InfluenceHub é um projeto desenvolvido como parte de um desafio técnico fullstack. A InfluenceHub é uma empresa revolucionária no campo do marketing de influência. Nossa plataforma inovadora oferece uma solução abrangente para marcas e influenciadores encontrarem as parcerias ideais, impulsionando o sucesso de ambos os lados. Acreditamos no poder da colaboração e na importância de estabelecer conexões significativas. Por meio de nossa plataforma, proporcionamos um ambiente seguro e intuitivo, permitindo que marcas e influenciadores se conectem, negociem contratos e alcancem resultados excepcionais. Estamos comprometidos em simplificar e otimizar o marketing de influência, capacitando nossos usuários a alcançarem seu máximo potencial nesse cenário dinâmico e em constante evolução.
 
 <br>
 
@@ -258,9 +258,12 @@ O servidor rodará na porta 3001. [http://localhost:3001](http://localhost:3001/
 
 - Linguagem de Programação: [TypeScript](https://www.typescriptlang.org/)
 - Framework de Front-end: [Next.js 13](https://nextjs.org/)
-- Back-end: [Node.js](https://nodejs.org/en)
-- Framework de Desenvolvimento Web: [Express](https://expressjs.com/)
+- Plataforma de desenvolvimento Back-end: [Node.js](https://nodejs.org/en)
+- Framework de arquitetura de APIwork web: [Express](https://expressjs.com/)
+- Padrão de arquitetura de API: [API REST](https://blog.betrybe.com/desenvolvimento-web/api-rest-tudo-sobre/)
+- Padrão de arquitetura do Software: [Model-Service-Controller](https://www.devmedia.com.br/introducao-ao-padrao-mvc/29308) 
 - ORM (Object-Relational Mapping): [Sequelize](https://sequelize.org/)
+- Cliente de teste de API: [Thunder Client](https://www.thunderclient.com/)
 - Banco de Dados: [MySQL](https://www.mysql.com/)
 - Biblioteca de Envio de E-mails: [Nodemailer](https://nodemailer.com/about/)
 - Linter de código: [ESLint](https://eslint.org/)
