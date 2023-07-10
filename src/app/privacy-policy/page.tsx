@@ -4,7 +4,7 @@ import InConstruction from '@/components/InConstruction/InConstruction';
 const PrivacyPolicy = () => {
   return (
     <>
-      <InConstruction />
+      <InConstruction route={'termos de privacidade e de uso'} />
     </>
   );
 };

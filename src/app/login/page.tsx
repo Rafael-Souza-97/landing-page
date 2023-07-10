@@ -4,7 +4,7 @@ import InConstruction from '@/components/InConstruction/InConstruction';
 const Login = () => {
   return (
     <>
-      <InConstruction />
+      <InConstruction route={'login'} />
     </>
   );
 };

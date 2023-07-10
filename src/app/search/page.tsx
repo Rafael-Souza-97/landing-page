@@ -1,12 +1,12 @@
 'use client';
 import InConstruction from '@/components/InConstruction/InConstruction';
 
-const Register = () => {
+const Search = () => {
   return (
     <>
-      <InConstruction route={'registro'} />
+      <InConstruction route={'pesquisa'} />
     </>
   );
 };
 
-export default Register;
+export default Search;

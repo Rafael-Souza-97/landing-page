@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const InConstruction = () => {
+const InConstruction = ({ route }: { route: string }) => {
   return (
     <section className="flex flex-col items-center justify-center h-full py-44">
       <div className="w-full max-w-screen-2xl mx-auto mb-10">
@@ -11,7 +11,7 @@ const InConstruction = () => {
             Ainda não estamos prontos, mas estamos quase lá! 😉
           </h1>
           <p className="text-xl mb-12 text-gray-500">
-            Nossa plataforma está sendo desenvolvida e nesse momento ela não está aberta para cadastros, somente uso interno, em breve todos poderão utilizar e fazer parte dessa evolução.
+            Nossa plataforma está sendo desenvolvida e nesse momento ela não está aberta para {route}, somente uso interno, em breve todos poderão utilizar e fazer parte dessa evolução.
           </p>
         </div>
 

@@ -1,12 +1,12 @@
 'use client';
 import InConstruction from '@/components/InConstruction/InConstruction';
 
-const Register = () => {
+const DashboardInfluencers = () => {
   return (
     <>
-      <InConstruction route={'registro'} />
+      <InConstruction route={'dashboards'} />
     </>
   );
 };
 
-export default Register;
+export default DashboardInfluencers;

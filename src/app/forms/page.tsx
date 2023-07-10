@@ -4,7 +4,7 @@ import InConstruction from '@/components/InConstruction/InConstruction';
 const Forms = () => {
   return (
     <>
-      <InConstruction />
+      <InConstruction route={'forms'} />
     </>
   );
 };

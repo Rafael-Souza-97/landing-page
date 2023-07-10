@@ -16,12 +16,14 @@ const Testimonial = ({ testimonial, src, person, job }: ITestemonialProps) => {
             </p>
           </blockquote>
           <figcaption className="flex items-center justify-center mt-6 space-x-3">
+
             <Image
               className="w-8 h-8 rounded-full"
               src={src}
               alt={person}
               width={20}
             />
+
             <div className="flex items-center divide-x-2 divide-gray-500">
               <div className="pr-3 font-medium text-gray-900">{person}</div>
               <div className="pl-3 text-sm font-light text-gray-500">{job}</div>
