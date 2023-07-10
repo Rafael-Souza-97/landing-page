@@ -7,10 +7,10 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-full h-full mx-auto flex flex-col items-center justify-center md:flex-row bg-gradient-to-b from-white to-background"
+      className="w-full h-full mx-auto flex flex-col items-center justify-center md:flex-row bg-gradient-to-b from-white to-background mt-5"
     >
-      <div className="w-full mx-auto flex flex-col items-center justify-center h-full px-8 md:flex-row">
-        <div className="flex flex-col justify-center md:w-1/3">
+      <div className="w-full mx-auto flex flex-col items-center justify-center h-full px-8 xl:flex-row">
+        <div className="flex flex-col justify-center w-full xl:w-1/3">
           <h1 className="font-semibold text-xl sm:text-4xl mb-2 mt-10 md:mt-0">
             Vamos conversar?
           </h1>
@@ -32,7 +32,8 @@ const Contact = () => {
             <span><AiOutlineMail size={20} className='text-purple-700 mt-1 mr-2'/></span>contato@influencehub.com
           </a>
         </div>
-        <div className='md:max-w-screen-xl'>
+
+        <div className='w-full lg:w-2/3 xl:w-1/3'>
           <ContactForm />
         </div>
       </div>

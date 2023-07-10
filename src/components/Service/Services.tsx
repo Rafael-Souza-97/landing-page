@@ -56,7 +56,7 @@ const Services = () => {
         buttonText='Pesquisar por Influenciadores'
         link={'/search/brands'}
         title='Empresas com vantagens exclusivas'
-        text={`Na Influence Hub, as empresas desfrutam de acesso simplificado aos influenciadores relevantes do seu ramo e estratégia. Com a plataforma, elas podem estabelecer conexões valiosas, demonstrar interesse em <span className='text-primary font-bold'>parcerias estratégicas</span> e contar com um dashboard completo para gerenciar suas campanhas de marketing de forma eficiente.`}
+        text={`Aqui, as empresas desfrutam de acesso simplificado aos influenciadores do seu ramo e estratégia. Com a plataforma, elas podem estabelecer conexões valiosas, demonstrar interesse em <span className='text-primary font-bold'>parcerias estratégicas</span> e contar com um dashboard completo para gerenciar suas campanhas de marketing de forma eficiente.`}
       />
     </section>
   );

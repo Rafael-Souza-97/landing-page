@@ -46,6 +46,7 @@ export default function ContactForm() {
       setSuccessMessage(false);
     }, 10000);
   };
+
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
     setUserContact((prevState) => ({ ...prevState, [name]: value }));
@@ -62,7 +63,9 @@ export default function ContactForm() {
       <div className="w-full mx-auto px-2">
         <div className="py-8 px-4 shadow rounded-lg sm:rounded-lg sm:px-10">
           <div className="sm:mx-auto sm:w-full sm:max-w-md">
-            <h2 className="text-center text-3xl text-gray-900 my-10 font-glacial-bold">Preencha todos os campos</h2>
+            <h2 className="text-center text-3xl text-gray-900 my-10 font-glacial-bold">
+              Preencha todos os campos
+            </h2>
           </div>
 
           <form onSubmit={handleSubmit}>
