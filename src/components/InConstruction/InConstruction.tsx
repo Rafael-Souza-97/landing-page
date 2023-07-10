@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const InConstruction = ({ route }: { route: string }) => {
   return (
-    <section className="flex flex-col items-center justify-center h-full py-44">
+    <section className="flex flex-col items-center justify-center h-full py-44 bg-gradient-to-b from-background to-background via-white">
       <div className="w-full max-w-screen-2xl mx-auto mb-10">
         <div className="flex flex-col items-center justify-center text-center">
           <h1 className="mb-10 text-4xl font-semibold text-gray-800">Ops.. Erro 404</h1>
