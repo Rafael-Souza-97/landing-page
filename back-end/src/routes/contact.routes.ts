@@ -5,6 +5,5 @@ import contactController from '../controllers/contact.controller';
 const router = Router();
 
 router.post('/contact', contactValidation, contactController.contactController);
-console.log('Router');
 
 module.exports = router;
