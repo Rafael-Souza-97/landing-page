@@ -84,7 +84,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex justify-between py-4 flex-col lg:flex-row">
+      <div className="flex justify-between py-4 pb-0 flex-col lg:flex-row">
         <p className="px-10 font-medium text-gray-500 hover:text-gray-800 tracking-widest text-md">
           Copyright INFLUENCE HUB © 2023 All Rights reserved.
         </p> 

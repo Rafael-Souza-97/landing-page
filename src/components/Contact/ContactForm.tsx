@@ -219,7 +219,7 @@ export default function ContactForm() {
             </div>
 
             <div className="mt-10">
-              <ThemeProvider theme={inputTheme}>
+              {/* <ThemeProvider theme={inputTheme}>
                 <Button
                   type="submit"
                   size="large"
@@ -229,7 +229,12 @@ export default function ContactForm() {
                 >
                   Enviar
                 </Button>
-              </ThemeProvider>
+              </ThemeProvider> */}
+              <button
+                className="w-full text-md md:text-xl text-white mb-4 md:mb-0 py-4 font-semibold hover:shadow-md bg-primary hover:bg-purple-600 rounded-lg"
+              >
+                Enviar
+              </button>
             </div>
           </form>
         </div>
